@@ -49,10 +49,10 @@ To use in PyCharm, you are going to need a `venv`. Let's create one from the com
 In the repository root, 
 
 ```bash
-python -m venv venv
+python -m .venv .venv
 # optionally, activate (Git Bash)
 
-source venv/Scripts/activate
+source .venv/Scripts/activate
 
 ```
 Now in PyCharm, go to File > Open and select the root folder.
